@@ -1,0 +1,18 @@
+#day in week
+day_no=int(input("enter a number:"))
+if(day_no==1):
+    print("sunday")
+elif(day_no==2):
+    print("monday")
+elif(day_no==3):
+    print("Tuesday")
+elif(day_no==4):
+    print("wednesday")
+elif(day_no==5):
+    print("Thursday")
+elif(day_no==6):
+    print("Friday")
+elif(day_no==7):
+    print("saturday")
+else:
+    print("error")
