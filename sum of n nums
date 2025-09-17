@@ -1,0 +1,3 @@
+num=int(input("Enter the first  n number:"))
+sum=num*(num+1)//2
+print("sum of n natural numbers:",sum)
