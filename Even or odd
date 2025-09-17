@@ -1,0 +1,6 @@
+#find even or odd number
+num=int(input("Enter the number:"))
+if(num%2==0):
+    print("even number")
+else:
+    print("odd number")
