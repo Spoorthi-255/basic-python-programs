@@ -1,0 +1,6 @@
+a=10
+b=1.4
+c=True
+print("Integer is:",a)
+print("float is:",b)
+print("boolean is:",c)
