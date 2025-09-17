@@ -1,0 +1,4 @@
+#sum of n odd numbers
+num=int(input("Enter the first  n  odd number:"))
+sum=num**2
+print("sum of n odd numbers:",sum)
