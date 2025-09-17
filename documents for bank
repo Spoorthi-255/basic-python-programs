@@ -1,0 +1,11 @@
+#applying for loan required document are aadhar,PAN,civil score more than 700 
+
+name = str(input("enter your name:"))
+print("the documents required are PAN card,Aadhar card and Civil score more than 700")
+a=str(input("do you have Aadhar card(yes,no:"))
+b=str(input("do you have PAN card(yes,no:"))
+c=int(input("enter your civil score:"))
+if(a,b=="yes" and c>700):
+    print("eligible")
+else:
+    print("not eligible")
