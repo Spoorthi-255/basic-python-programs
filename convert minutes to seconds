@@ -1,0 +1,4 @@
+mins=int(input("Enter the minutes:"))
+b=60
+c=mins*b
+print(c)
