@@ -1,0 +1,37 @@
+print("Welcome to SPY Restaurant")
+print("""Choose your menu
+       1.Tiffin items - 50rs
+       2.Lunch meals  - 100rs
+       3.Juice items  - 50rs 
+       4.snacks       - 50rs
+       5.Ice Creams   - 50rs
+       6. EXIT***""")
+choice=int(input("enter your Choice(1-6:")) 
+quantity=int(input("Quantity:"))
+if(choice==1):
+    print("1.Tiffin items - 50rs ")
+    price=50
+    print("Total Price:",quantity*price)
+elif(choice==2):
+    print("2.Lunch - 100rs")
+    price=100
+    print("price:",quantity*price)
+elif(choice==3):
+    print("3.juice items - 50rs")
+    price=50
+    print("price:",quantity*price)
+elif(choice==4):
+    print("4.Snacks - 50rs")
+    price=50
+    print("price:",quantity*price)
+elif(choice==5):
+    print("Ice creams - 50rs")
+    price=50
+    print("price:",quantity*price)
+elif(choice==6):
+    print("EXITING***")
+else:
+    print("error")
+
+
+  
