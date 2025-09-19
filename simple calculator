@@ -1,0 +1,14 @@
+#sum of products of all numbers from m and n
+m=int(input("enter m value:"))
+n=int(input("enter n value:"))
+choice = input("enter your choice(+,-,*,/):")
+if (choice == '+'):
+    print("Addition of two numbers:",m+n)
+if (choice == '-'):
+    print("subtraction of two numbers:",m-n)
+if (choice == '*'):
+    print("multiplication of two numbers:",m*n)
+if (choice == '/'):
+    print("Division of two numbers:",m/n)
+else:
+    print("errors")
