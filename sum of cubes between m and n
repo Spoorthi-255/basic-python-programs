@@ -1,0 +1,10 @@
+#sum of cudes of all numbers between m and n
+m=int(input("enter m value:"))
+n=int(input("enter n value:"))
+sum=0
+if(m>n):
+    print(0)
+else:
+    for i in range (m,n+1):
+        sum +=i*i*i
+    print("sum:",sum)
